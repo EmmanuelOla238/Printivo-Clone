@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #f7f6f4;
+}
+
+#whatsappicon {
+    margin-left: 80px
+}
+
+#flagdiv {
+    display: flex;
+    border: 0.02px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+#menu {
+    text-decoration: none;
+    color: #3a4c64;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#what {
+    margin-top: 40px; 
+    margin-bottom: 10px;
+}
+
+#quality{
+    font-size: 60px; 
+    color: #384a62; 
+    padding-top: 20px;
+}
+
+#printivodiv {
+    display: flex;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    transition-property: all;
+    z-index: 500;
+    background-color: none;
+    transition: background-color 0.3s;
+}
+
+#menubutton {
+    font-family: sans-serif;
+    background-color: white;
+    padding: 13px;
+    width: 70px;
+    display: none;
+}
+
+#printivologo {
+    margin-left: 70px;
+    margin-right: 300px;
+}
+
+#printivoselect {
+    background-color: #ece8d9;
+    height: 455px;
+}
+
+#popular {
+    margin-left: 120px; 
+    font-size: 30px; 
+    margin-top: 40px;
+}
+
+#seeall {
+    color: #d77f81; 
+    margin-left: 775px; 
+    font-size: 17px; 
+    font-family: sans-serif;
+}
+
+#what {
+    margin-top: 40px; 
+    margin-bottom: 10px;
+}
+
+#shipped {
+    font-size: 25px; 
+    color: #708095;
+    margin-top: 8px;
+}
+
+#qualitydiv {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+#Corporate {
+    background-color: #f3b1cd;
+    padding-left: 550px;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+#ourservice {
+    margin-left: 120px; 
+    color: #506683; 
+    font-family: sans-serif; 
+    font-size: 19px; 
+    margin-top: 12px;
+}
+
+#nigeria {
+    margin-top: 120px; 
+    margin-left: 120px; 
+    font-size: 28px; 
+    color: #384a62;
+}
+
+#input1 {
+    border: none;
+    width: 600px;
+    height: 80px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+#inputdiv {
+    position: relative;
+}
+
+#searchimg {
+    position: absolute;
+    left: 550px;
+    top: 30px;
+}
+
+#handimg {
+    width: 660px;
+    padding-left: 250px;
+    padding-top: 0;
+}
+
+#popularcat{
+    margin-left: 120px; 
+    font-size: 30px; 
+    margin-top: 100px;
+}
+
+#seeall2 {
+    color: #d77f81; 
+    margin-left: 750px; 
+    font-size: 17px; 
+    font-family: sans-serif;
+}
+
+#pro1 {
+    
+    width: 21%;
+    font-family: sans-serif;
+    height: 440px;
+    border: 1px groove;
+    /* box-shadow: 0px 0px 5px -2px; */
+}
+
+#productrow1 {
+    margin-left: 120px;
+    margin-top: 28px;
+    display: flex;
+    column-gap: 3%;
+}
+
+#allimg:hover {
+    transform: scale(1.1);
+}
+
+#productrow2 {
+    margin-left: 120px;
+    margin-top: 28px;
+    display: flex;
+    column-gap: 3%;
+    
+}
+
+#logoimg{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+#section {
+    display: flex;
+    font-family: sans-serif;
+   column-gap: 30px;
+   padding-bottom: 70px;
+}
+
+#whatcus {
+    padding-top: 60px; 
+    margin-left: 120px; 
+    font-size: 28px;
+}
+
+.alldiv1 {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    column-gap: 20px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+#twittericon {
+    width: 18px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#twittericondiv {
+    border: 1px solid;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+#text {
+    font-size: 14px;
+}
+
+.alldiv2 {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    column-gap: 20px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.alldiv3 {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    column-gap: 20px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#ourama {
+    font-size: 35px; 
+    padding-top: 80px; 
+    margin-left: 120px;
+}
+
+#youcan {
+    font-size: 35px; 
+    padding-top: 80px; 
+    margin-left: 120px;
+}
+
+#section2 {
+    margin-top: 15px;
+    margin-left: 120px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    column-gap: 60px;
+    padding-bottom: 80px;
+}
+
+.clockdiv {
+    display: flex;
+    column-gap: 10px;
+}
+
+#beforefooter {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+
+#footerlinkdiv {
+    padding-top: 70px;
+    margin-left: 120px;
+    display: flex;
+    column-gap: 100px;
+    padding-bottom: 70px;
+}
+
+#linkheader {
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+#link {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#footer {
+    margin-left: 500px;
+    padding: 35px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
